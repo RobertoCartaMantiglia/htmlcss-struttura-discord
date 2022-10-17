@@ -4,14 +4,12 @@
     box-sizing: border-box;
 }
 
-header.flex-box{
+header{
     background-color: blue;
     height: 400px;
     width: 1000px;
-    justify-content: center; 
-    display: flex;      
 }
-section.flex-box{
+section.nav{
     display: flex;
     background-color: yellow;
     height: 50px;
@@ -32,15 +30,33 @@ ul{
 li{
     display: inline;    
 }
+.flex{
+    display: flex;
+    flex-direction: column;
+}
 .navigation{
     height: 80px;
     width: 100%;
-    background-color: skyblue;   
+    background-color: skyblue; 
+    padding-top: 15px;  
 }
 .slogan{
     background-color: blueviolet;
     width: 400px;
     height: 250px;
-    display: flex;   
-
+    margin-top: 35px;
+}
+.flex-container{
+    justify-content: center;
+    align-items: center;
+}
+.odd-section{
+    width: 1000px;
+    height: 400px;
+    background-color: bisque;
+}
+.even-section{
+    width: 1000px;
+    height: 400px;
+    background-color: cyan;
 }
