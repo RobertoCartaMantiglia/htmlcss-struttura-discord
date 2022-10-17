@@ -9,6 +9,11 @@ header{
     height: 400px;
     width: 1000px;
 }
+footer{
+    width: 1000px;
+    height: 450px;
+    background-color: darkslategrey; 
+}
 section.nav{
     display: flex;
     background-color: yellow;
@@ -102,4 +107,7 @@ li{
     background-color: darkgreen;
     width: 100%;
     height: 100%;
+}
+.info-section{
+    border: 1px solid white;
 }
