@@ -11,13 +11,15 @@ header.flex-box{
     background-color: blue;
     height: 300px;
     width: 1000px;
-
     justify-content: center;
+    
     
 }
 ul{
     list-style-type: none;
-    display: inline-block;
+}
+li{
+    display: inline;
 }
 .navigation{
     height: 80px;
@@ -31,9 +33,9 @@ section.flex-box{
     height: 50px;
     width: 70%;
     border: 1px solid black;
-    margin: 0 auto;
-    padding: 1rem;
+    margin: 0 auto;   
     justify-content: space-around;
+    
     
 
 }
