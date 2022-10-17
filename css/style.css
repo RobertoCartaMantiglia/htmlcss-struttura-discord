@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+
+header.flex-box{
+    background-color: blue;
+    height: 250px;
+    justify-content: center;
+}
+ul{
+    list-style-type: none;
+}
+.navigation{
+    height: 15%;
+    width: 100%;
+    background-color: skyblue;
+}
+section.flex-box{
+    display: flex;
+    background-color: yellow;
+    height: 10%;
+    width: 70%;
+}
