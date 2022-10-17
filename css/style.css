@@ -34,6 +34,10 @@ li{
     display: flex;
     flex-direction: column;
 }
+.row-flex{
+    flex-direction: row;
+    display: flex;
+}
 .navigation{
     height: 80px;
     width: 100%;
@@ -50,13 +54,41 @@ li{
     justify-content: center;
     align-items: center;
 }
-.odd-section{
+
+.odd{
     width: 1000px;
     height: 400px;
     background-color: bisque;
+    display: flex;
 }
-.even-section{
+.even{
     width: 1000px;
     height: 400px;
     background-color: cyan;
+    display: flex;
+}
+.box{
+    width: 70%;
+    height: 70%;
+    border: 1px solid black;
+    margin: auto;    
+}
+.azzurro{
+    flex-basis: 65%;
+    height: 100%;
+    background-color: rgb(4, 62, 253);
+}
+.rosa{
+    flex-basis: 35%;
+    background-color: rgb(247, 1, 153);
+}
+.rosso{
+    flex-basis: 35%;
+    height: 100%;
+    background-color: red;
+}
+.giallo{
+    flex-basis: 65%;
+    height: 100%;
+    background-color: yellow;
 }
